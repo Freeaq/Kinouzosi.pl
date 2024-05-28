@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/seanse.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-red navbar-dark">
+        <div class="wrapper"></div>
+        <div class="container-fluid all-show">
+            <a class="navbar-brand" href="index.html">Kinowa.pl <i class="fa fa-film"></i></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Strona Główna <i class="fa fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="seanse.html">Seanse <i class="fa fa-ticket"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zaloguj.html">Zaloguj się <i class="fa fa-sign-in"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="zarejestruj.html">Zarejestruj się <i class="fa fa-user-plus"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt <i class="fa fa-envelope"></i></a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Więcej informacji <i class="fa fa-info-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Opinie.html">Opinie klinetów</a></li>
+                            <li><a class="dropdown-item" href="Narysuj.html">Narysuj plakat filmowy</a></li>
+                            <li><a class="dropdown-item" href="Prezentacja.html">Prezentacja naszego Kina</a></li>
+                            <li><a class="dropdown-item" href="Regulamin.html">Regulamin Kina</a></li>
+                            <li><a class="dropdown-item" href="Map.html">Mapa naszych Kin</a></li>
+                            <li><a class="dropdown-item" href="przychody.html">Przychody Kina</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        <div class="modal fade" id="navbar-modal" tabindex="-1" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Strona Główna <i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="seanse.html">Seanse <i class="fa fa-ticket"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="zaloguj.html">Zaloguj się <i class="fa fa-sign-in"></i></a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" href="zarejestruj.html">Zarejestruj się <i class="fa fa-user-plus"></i></a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt <i class="fa fa-envelope"></i></a>
+                            </li>
+            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Więcej informacji <i class="fa fa-info-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Opinie.html">Opinie klinetów</a></li>
+                                    <li><a class="dropdown-item" href="Narysuj.html">Narysuj plakat filmowy</a></li>
+                                    <li><a class="dropdown-item" href="Prezentacja.html">Prezentacja naszego Kina</a></li>
+                                    <li><a class="dropdown-item" href="Regulamin.html">Regulamin Kina</a></li>
+                                    <li><a class="dropdown-item" href="Map.html">Mapa naszych Kin</a></li>
+                                    <li><a class="dropdown-item" href="przychody.html">Przychody Kina</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <article>
+            <div class="container-main">
+                <h1 class="product-category">Najnowsze Filmy</h1>
+                <section class="product"> 
+                    <button class="pre-btn"><img src="../strzalka/strzalka.png"></button>
+                    <button class="nxt-btn"><img src="../strzalka/strzalka.png"></button>
+                    <div class="product-container">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film1.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Furiosa Saga Mad Max</h2>
+                                <span class="time">Wtorek</span>
+                                <span class="time">14:30-16:30</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film2.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Atlas</h2>
+                                <span class="time">Środa</span>
+                                <span class="time">16:45-18:20</span>
+                            </div>                            
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film3.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Diuna: Część druga</h2>
+                                <span class="time">Czwartek</span>
+                                <span class="time">19:00-21:30</span>
+                            </div>
+                            
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film8.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Niepokój</h2>
+                                <span class="time">Piątek</span>
+                                <span class="time">21:15-23:30</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film4.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">The Substance</h2>
+                                <span class="time">Sobota</span>
+                                <span class="time">13:00-15:00</span>
+                            </div>
+                        </div>
+        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film6.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Planeta Małp</h2>
+                                <span class="time">Niedziela</span>
+                                <span class="time">18:30-22:00</span>
+                            </div>
+                        </div>
+        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film9.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Nieobliczalna</h2>
+                                <span class="time">Wtorek</span>
+                                <span class="time">14:30-17:20</span>
+                            </div>
+                        </div>
+        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="../zdjecia/film10.png" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="location.href='przegladaj.html'">Zobacz zdjęcia z filmu <i class="fa fa-camera"></i></button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Challengers</h2>
+                                <span class="time">Środa</span>
+                                <span class="time">13:30-15:10</span>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            <script src="../js/suwak.js"></script>
+        
+        </article>
+
+        <footer class="bg-dark text-light text-center text-lg-start">
+            <div class="container p-4">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Informacje o kinie</h5>
+                    <p>
+                        Kinowa.pl - Twoje miejsce na filmowe emocje!<br>
+                        Oferujemy najnowsze premiery, klasyczne hity oraz wydarzenia specjalne.<br>
+                        <br>
+                        Kontakt:<br>
+                        Email: kontakt@kinowa.pl<br>
+                        Telefon: +48 123 456 789<br>
+                        <br>
+                        Adres:<br>
+                        Kino Kinowa Sp. z o.o.<br>
+                        ul. Filmowa 10<br>
+                        00-123 Poznań<br>
+                        <br>
+                        Dołącz do nas i przeżyj niezapomniane chwile w świecie wielkiego ekranu!
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.849);">
+              <a class="text-body" style='text-decoration: none; '>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Wykonała: Zofia Andrzejczuk</a>
+            </div>
+          </footer>
+
+</body>
+</html>

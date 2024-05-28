@@ -1,0 +1,41 @@
+.ticket-calculator-form label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ticket-calculator-form .form-select,
+.ticket-calculator-form input[type="number"],
+.ticket-calculator-form input[type="text"],
+.ticket-calculator-form .form-check-input {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.form-check-input{
+    width: 15px;
+}
+.ticket-calculator-form button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+h6{
+    text-align: center;
+}
+.center-checkbox {
+    display: block;
+    margin: 10px auto; 
+    margin-left: -100%;
+}
+
+.ticket-calculator-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+}
+
+

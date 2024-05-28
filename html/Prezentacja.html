@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prezentacja.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-red navbar-dark">
+        <div class="wrapper"></div>
+        <div class="container-fluid all-show">
+            <a class="navbar-brand" href="index.html">Kinowa.pl <i class="fa fa-film"></i></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Strona Główna <i class="fa fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="seanse.html">Seanse <i class="fa fa-ticket"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zaloguj.html">Zaloguj się <i class="fa fa-sign-in"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="zarejestruj.html">Zarejestruj się <i class="fa fa-user-plus"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt <i class="fa fa-envelope"></i></a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Więcej informacji <i class="fa fa-info-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Opinie.html">Opinie klinetów</a></li>
+                            <li><a class="dropdown-item" href="Narysuj.html">Narysuj plakat filmowy</a></li>
+                            <li><a class="dropdown-item" href="Prezentacja.html">Prezentacja naszego Kina</a></li>
+                            <li><a class="dropdown-item" href="Regulamin.html">Regulamin Kina</a></li>
+                            <li><a class="dropdown-item" href="Map.html">Mapa naszych Kin</a></li>
+                            <li><a class="dropdown-item" href="przychody.html">Przychody Kina</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        <div class="modal fade" id="navbar-modal" tabindex="-1" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Strona Główna <i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="seanse.html">Seanse <i class="fa fa-ticket"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="zaloguj.html">Zaloguj się <i class="fa fa-sign-in"></i></a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" href="zarejestruj.html">Zarejestruj się <i class="fa fa-user-plus"></i></a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt <i class="fa fa-envelope"></i></a>
+                            </li>
+            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Więcej informacji <i class="fa fa-info-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Opinie.html">Opinie klinetów</a></li>
+                                    <li><a class="dropdown-item" href="Narysuj.html">Narysuj plakat filmowy</a></li>
+                                    <li><a class="dropdown-item" href="Prezentacja.html">Prezentacja naszego Kina</a></li>
+                                    <li><a class="dropdown-item" href="Regulamin.html">Regulamin Kina</a></li>
+                                    <li><a class="dropdown-item" href="Map.html">Mapa naszych Kin</a></li>
+                                    <li><a class="dropdown-item" href="przychody.html">Przychody Kina</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      <article>
+        <h2>Prezentacja naszego Kina <br>
+        (Przy oglądaniu prezentacji na telefonach radzimy obrócić telefon poziomo)</h2>
+        <div class="cont-main">
+          <div id="presentation" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Noc Premiery">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Witaj w Kinie Kinowa</h5>
+                          <p>Każdy wieczór jest u nas wieczorem premiery.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Wygodne Siedzenia">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Komfort spotyka styl</h5>
+                          <p>Doświadcz niezrównanego komfortu naszych luksusowych foteli.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Gourmet Snacks">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Bar z przekąskami</h5>
+                          <p>Poddaj się rozkoszy naszych wykwintnych przekąsek i ręcznie robionego popcornu.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Najnowsza Technologia">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Technologia najnowszej generacji</h5>
+                          <p>Zanurz się w akcji dzięki naszym ekranom 3D i dźwiękowi Dolby Atmos.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Program Lojalnościowy">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Dołącz do naszego Programu Lojalnościowego</h5>
+                          <p>Zbieraj nagrody za każdym razem, gdy oglądasz film w naszym kinie.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Prywatne Wydarzenia">
+                      <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                          <h5>Prywatne seanse i wydarzenia</h5>
+                          <p>Zorganizuj własny prywatny seans filmowy lub świętuj u nas specjalne okazje.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../prezentacja/prezentacja1.png" class="d-block w-100" alt="Prywatne Wydarzenia">
+                        <div class="carousel-caption d-none d-md-block center-caption unique-caption">
+                            <h5>Dziękujemy za uwagę</h5>
+                            <p>Wasza obecność była dla nas wielkim zaszczytem...</p>
+                        </div>                        
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+      </div>
+      </div>
+        </article>
+  
+
+        <footer class="bg-dark text-light text-center text-lg-start">
+            <div class="container p-4">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Informacje o kinie</h5>
+                    <p>
+                        Kinowa.pl - Twoje miejsce na filmowe emocje!<br>
+                        Oferujemy najnowsze premiery, klasyczne hity oraz wydarzenia specjalne.<br>
+                        <br>
+                        Kontakt:<br>
+                        Email: kontakt@kinowa.pl<br>
+                        Telefon: +48 123 456 789<br>
+                        <br>
+                        Adres:<br>
+                        Kino Kinowa Sp. z o.o.<br>
+                        ul. Filmowa 10<br>
+                        00-123 Poznań<br>
+                        <br>
+                        Dołącz do nas i przeżyj niezapomniane chwile w świecie wielkiego ekranu!
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.849);">
+              <a class="text-body" style='text-decoration: none; '>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Wykonała: Zofia Andrzejczuk</a>
+            </div>
+          </footer>
+
+</body>
+</html>

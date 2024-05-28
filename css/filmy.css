@@ -1,0 +1,46 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: #0c40eb; 
+    color: #ffffff; 
+    border-radius: 5px;
+    transition: opacity 0.5s, visibility 0.5s, background-color 0.3s; 
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay:hover {
+    background-color: #3592df; 
+    color: #000000; 
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+figcaption {
+    text-align: center; 
+}

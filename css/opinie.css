@@ -1,0 +1,65 @@
+.main-cont{
+    height: auto;
+    margin-bottom: 20%;
+}
+#Tabela_opinii {
+    width: 80%; 
+    margin: 0 auto; 
+    display: none; 
+    overflow-x: auto; 
+}
+.container.my-5 {
+    max-width: 80%;
+    margin-bottom: 100%;
+}
+
+#Tabela_opinii thead th {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+#Tabela_opinii tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+#Tabela_opinii tbody tr:nth-child(even) {
+    background-color: #ddd; 
+}
+
+#Tabela_opinii tbody td {
+    color: #555; 
+}
+
+#Tabela_opinii tbody tr:hover {
+    background-color: #ddd; 
+}
+
+#Tabela_opinii {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin: 0 auto; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+
+
+#Tabela_opinii, #Tabela_opinii th, #Tabela_opinii td {
+    border: 1px solid #ddd; 
+}
+
+
+#Tabela_opinii th, #Tabela_opinii td {
+    padding: 8px;
+    text-align: left; 
+}
+
+
+@media (min-width: 992px) {
+    .container.my-5 {
+        max-width: 80%;
+    }
+}
+  @media (min-width: 480px) {
+    #Tabela_opinii {
+      width: auto; 
+    }
+  }

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body{
+
+    background: #C9D6FF; 
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    
+}
+
+.main-cont{
+height: auto;
+}
+a{
+  color: white;
+}
+.navbar-nav>li>a{
+
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right:20px;
+  color: #fff;
+}
+
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.nav-link{
+
+      color: #fff !important;
+}
+
+
+.wrapper{
+      width: 100%;
+    position: absolute;
+    height: 100%;
+    background: #000000;  
+    background: -webkit-linear-gradient(to top, #434343, #000000); 
+    background: linear-gradient(to top, #434343, #000000);
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+}
+
+.navbar-brand{
+
+  color:#fff;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+
+.navbar-red:hover .wrapper{
+
+  clip-path: polygon(82% 0, 100% 0, 100% 50%, 100% 100%, 75% 100%);
+
+}
+
+.navbar-brand:hover{
+
+  color:#fff;
+  
+}
+
+.navbar-red{
+
+    background: #2c3e50;  
+    background: -webkit-linear-gradient(to top, #3498db, #2c3e50);  
+    background: linear-gradient(to top, #3498db, #2c3e50);
+    color: #fff;
+
+}
+
+.all-show{
+
+  z-index: 10;
+  
+}
+
+.modal-content {
+    background-color: transparent; 
+    color: black; 
+    border: none;
+    
+    
+}
+.modal-header{
+  border: none;
+}
+
+.modal-backdrop.show {
+    opacity: 0.5; 
+    
+}
+
+.modal-dialog {
+    margin-top: 70px; 
+}
+
+.modal .dropdown-menu {
+    background-color: transparent; 
+    color: black; 
+    border: 1px solid white;
+    min-width: 100%; 
+    box-shadow: none; 
+    
+}
+
+.modal .dropdown-item {
+    width: 100%; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgba(63, 61, 61, 0);
+    
+}
+
+.modal-dialog {
+  margin-left: -3px;
+  margin-top: 60px;
+  width: 100%;
+  
+}
+
+.modal-dialog .modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-dialog .nav-link {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  color: black;
+}
+
+.modal-dialog .nav-link:hover::before,
+.modal-dialog .nav-link:active::before {
+  width: 0;
+  visibility: hidden;
+}
+
+.modal-content .dropdown-menu {
+  width: 100vw;
+  left: 0 !important;
+  right: 0 !important;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 100%;
+}
+.btn-danger{
+  background-color: rgb(252, 155, 171);
+  border: rgb(252, 155, 171);
+}
+
+.btn-danger:hover{
+  background-color: pink;
+  border: pink;
+}
+img{
+  border-radius: 10px;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border: none;
+}
+
+
+@media (max-width: 767.98px) {
+  .main-cont figure img {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 15px; 
+  }
+
+  .main-cont figure figcaption {
+      text-align: center;
+      margin-bottom: 20px; 
+  }
+
+  .main-cont .row > [class^="col-"] {
+      flex-basis: 100%; 
+      max-width: 100%; 
+  }
+}
